@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-// import logo from 'components/assets/img'
+import logo from '../../components/assets/img/logo2.svg'
 
 const Search = () => {
   window.addEventListener('scroll', function () {
@@ -12,7 +12,8 @@ const Search = () => {
         <section className="search">
           <div className="container c-flex">
             <div className="logo width">
-              {/* <img src={logo} alt="" /> */}
+              <h1>Farmacia</h1>
+              <img src={logo} alt="" />
             </div>
 
             <div className="search-box f-flex">
