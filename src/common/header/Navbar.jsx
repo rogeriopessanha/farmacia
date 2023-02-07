@@ -16,24 +16,24 @@ const Navbar = () => {
           </div>
 
           <div className="navlink">
-            <ul className="nav">
+            <ul className={MobileMenu ? 'nav-links-MobileMenu' : 'link f-flex '} onClick={() => setMobileMenu(false)}>
               <li>
-                <Link to='/'>home</Link>
+                <Link to='/'>Home</Link>
               </li>
               <li>
-                <Link to='/pages'>paginas</Link>
+                <Link to='/pages'>Paginas</Link>
               </li>
               <li>
-                <Link to='/user'>conta usuario</Link>
+                <Link to='/user'>Conta Usuario</Link>
               </li>
               <li>
-                <Link to='/marcas'>conta marcas</Link>
+                <Link to='/marcas'>Conta Vendedor</Link>
               </li>
               <li>
-                <Link to='/localizar'>localize meu pedido</Link>
+                <Link to='/localizar'>Localize meu pedido</Link>
               </li>
               <li>
-                <Link to='/contato'>contato</Link>
+                <Link to='/contato'>Contato</Link>
               </li>
             </ul>
 
