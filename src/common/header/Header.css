@@ -12,18 +12,18 @@
 
 .head label{
     margin-right: 30px;
-    font-size: 14px;
+    font-size: 12px;
 }
 /* final head */
 
 /* começo search */
 .search{
-    padding: 10px 0;
+    padding: 20px 0;
 }
 
 .search .logo{
-    /* width: auto;
-    height: auto; */
+    width: auto;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -180,7 +180,7 @@ header ul li a:hover{
     header ul li{
         width: 100%;
         transition: all 0.5s ease-in-out;
-        line-height: 70px;
+        line-height: 55px;
     }
 
     header .link{
@@ -195,10 +195,11 @@ header ul li a:hover{
         display: block;
         font-size: 25px;
         z-index: 999;
+        cursor: pointer;
     }
 
     .open{
-        top: 15%;
+        top: 18%;
     }
 
     .close{

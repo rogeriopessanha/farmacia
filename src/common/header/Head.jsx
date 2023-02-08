@@ -14,8 +14,8 @@ const Head = () => {
 
           <div>
             <div className="right row RText">
-              <label>Dúvidas?</label>
-              <label>Precisa de ajuda?</label>
+              {/* <label>Dúvidas?</label>
+              <label>Precisa de ajuda?</label> */}
               {/* <span>🏳️</span>
               <label htmlFor="">BR</label>
               <span>🏳️</span>
