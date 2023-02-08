@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import logo from '../../components/assets/img/logo2.svg'
+import logo from '../../components/assets/img/logo/logo2.svg'
 
 const Search = () => {
   window.addEventListener('scroll', function () {

@@ -5,8 +5,8 @@ const Categoria = () => {
 
     const data = [
         {
-            // cateImg: '',
-            cateName: 'coisas',
+            cateImg: './components/assets/img/produtos/remedio.png',
+            cateName: 'produtos',
         },
     ]
   return (
@@ -15,8 +15,9 @@ const Categoria = () => {
            {
              data.map((value, index) => {
                 return(
-                    <div className="box f-flex">
-                        
+                    <div className="box f-flex" key={index}>
+                        <img src={value.cateImg} alt="" />
+                        <span>{value.cateName}</span>
                     </div>
                 )
             })
